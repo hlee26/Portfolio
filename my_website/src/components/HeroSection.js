@@ -7,8 +7,11 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>Henry Lee</h1>
+      <p>Hello, my name is Henry. I am currently studying Computer Science at the University of Notre Dame.
+        Throughout my academic journey thus far, I have formed a firm foundation in software engineering, and I am
+        very passionate about predictive modeling with AI and its potential to anticipate future trends or outcomes.
+      </p>
       <div className='hero-btns'>
         <Button
           className='btns'
