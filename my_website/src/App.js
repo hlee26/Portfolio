@@ -4,8 +4,8 @@ import './App.css';
 import Experience from './components/pages/Experience';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/pages/Projects';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Hobbies from './components/pages/Hobbies';
+import Contact from './components/pages/Contact';
 import Henry from './components/pages/Henry';
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
           <Route path='/Henry' exact component={Henry} />
           <Route path='/Experience' exact component={Experience} />
           <Route path='/Projects' component={Projects} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/Hobbies' component={Hobbies} />
+          <Route path='/Contact' component={Contact} />
         </Switch>
       </Router>
     </>
