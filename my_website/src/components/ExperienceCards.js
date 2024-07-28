@@ -15,7 +15,7 @@ function ExperienceCards() {
 Analyzed biometric and location data using Python Pandas, and TensorFlow to create a machine learning model to evaluate pedestrian stress levels and  improve urban walkability in downtown South Bend
 '
               label='Lucy Civic Innovation Lab Intern'
-              path='/services'
+              path='/Experience'
             />
             <CardItem
               src='images/res.jpeg'
@@ -23,7 +23,7 @@ Analyzed biometric and location data using Python Pandas, and TensorFlow to crea
 Analyzed data using MATLAB and compiled weekly reports on findings
 '
               label='Research Assistant at Notre Dame'
-              path='/services'
+              path='/Experience'
             />
           </ul>
           <ul className='cards__items'>
@@ -34,7 +34,7 @@ Was responsible for driving the truck to job sites and managing my own crew for 
 Led and organized team members to efficiently paint entire houses, successfully completing over fifty houses in one summer
 '
               label='Painter for Tom Dits and Sons LLC'
-              path='/services'
+              path='/Experience'
             />
             <CardItem
               src='images/trinity.png'
@@ -42,13 +42,13 @@ Led and organized team members to efficiently paint entire houses, successfully 
 Installed software and performed tech maintenance on computers
 '
               label='Technician at Trinity School'
-              path='/products'
+              path='/Experience'
             />
             <CardItem
               src='images/quark.jpg'
               text='Conducted summer physics research at Notre Dame as part of the QuarkNet Program'
               label='QuarkNet Intern'
-              path='/sign-up'
+              path='/Experience'
             />
           </ul>
         </div>
