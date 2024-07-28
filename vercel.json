@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "website/package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/website/$1"
+    }
+  ]
+}
