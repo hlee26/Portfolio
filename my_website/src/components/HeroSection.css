@@ -1,9 +1,10 @@
-img {
+.background-photo {
   object-fit: cover;
   width: 100%;
   height: 100%;
   position: fixed;
   z-index: -1;
+  opacity: 0.3;
 }
 
 .hero-container {
@@ -30,6 +31,8 @@ img {
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .hero-btns {
@@ -37,7 +40,7 @@ img {
 }
 
 .hero-btns .btn {
-  margin: 6px;
+  margin: 30px;
 }
 
 .fa-play-circle {
